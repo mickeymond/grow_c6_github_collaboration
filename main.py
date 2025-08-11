@@ -9,3 +9,5 @@ if x == y and y == z:
 elif x == y or y == z or x == z:
     print("Isosceles")
 # If no sides are equal print Scalene
+else:
+    print("Scalene")
