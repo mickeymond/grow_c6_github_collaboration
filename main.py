@@ -6,4 +6,6 @@ z=int(input("Enter third side:\n"))
 if x == y and y == z:
     print("Equilateral")
 # If 2 sides are equal print Isosceles
+elif x == y or y == z or x == z:
+    print("Scalene")
 # If no sides are equal print Scalene
