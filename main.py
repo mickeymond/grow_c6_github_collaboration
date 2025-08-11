@@ -7,5 +7,5 @@ if x == y and y == z:
     print("Equilateral")
 # If 2 sides are equal print Isosceles
 elif x == y or y == z or x == z:
-    print("Scalene")
+    print("Isosceles")
 # If no sides are equal print Scalene
